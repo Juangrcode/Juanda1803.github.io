@@ -1,0 +1,35 @@
+@media (max-width: 700px){
+  .main__products{
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    height: auto;
+  }
+  .main__product{
+    margin-top: auto;    
+    width: auto;
+    display: flex;
+    align-items: center;
+  }
+  .quality, .mentions__container{
+    flex-direction: column;
+    align-items: center;
+  }
+  .mentions__container--item{
+    margin-top: 20px;
+  }
+  .quality__container--item{
+    margin: 10px;
+  }
+}
+@media (max-width: 1100px){
+  .mentions__container--item{
+    margin-top: 20px;
+  }
+  .mentions__container{
+    flex-wrap: wrap;
+    align-items: center;
+  }
+}
+
+
